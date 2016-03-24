@@ -33,6 +33,10 @@ section ul.profile{
   border-bottom: 1px solid #DEDEDF;
   cursor: pointer;
 }
+section ul.profile a{
+  text-decoration: none;
+  color: #000;
+}
 section ul.profile li.img{
   height: 100px;
   width:100px;
