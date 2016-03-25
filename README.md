@@ -1,3 +1,3 @@
 # simomazil.github.io
 
-This website is inspired from iOS design.
+A Jekyll theme with inspired from iOS design.
