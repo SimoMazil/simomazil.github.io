@@ -26,3 +26,6 @@ section div.title-bar a{
   top: 20px;
   font-size: 18px;
 }
+section article.post{
+  padding: 10px;
+}

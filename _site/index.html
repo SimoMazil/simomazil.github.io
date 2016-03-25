@@ -1,7 +1,46 @@
----
-layout: default
----
-<section class="col-md-4">
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>M.Mazil</title>
+  <meta name="description" content="My name is Mohammed Mazil and im a young developer and here u can read about me.
+">
+
+  <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- <link rel="canonical" href="http://simomazil.github.io/">
+  <link rel="alternate" type="application/rss+xml" title="M.Mazil" href="http://simomazil.github.io/feed.xml"> -->
+</head>
+
+
+  <body>
+
+    <!-- <header>
+  <section class="col-md-4">
+    <div class="row">
+        <div class="title-bar">
+          <h1>Mohammed MAZIL</h1>
+        </div>
+    </div>
+  </section>
+    <section class="col-md-8">
+      <div class="row">
+          <div class="title-bar">
+            <h1>About</h1>
+          </div>
+      </div>
+    </section>
+</header> -->
+
+
+    <section class="col-md-4">
   <div class="row">
     <div class="title-bar">
       <h1>Mohammed MAZIL</h1>
@@ -24,9 +63,9 @@ layout: default
       </ul>
         <h3>Blog</h3>
         <ul class="blog">
-          {% for post in site.posts %}
-          <a href="{{ post.url | prepend: site.baseurl }}"><li>{{ post.title }} <i class="fa fa-chevron-right"></i> <span>{{ post.date | date: "%b %-d, %Y" }}</span></li></a>
-          {% endfor %}
+          
+          <a href="/jekyll/update/2016/03/24/welcome-to-jekyll.html"><li>Welcome to Jekyll! <i class="fa fa-chevron-right"></i> <span>Mar 24, 2016</span></li></a>
+          
         </ul>
     </nav>
   </div>
@@ -62,3 +101,9 @@ layout: default
     </article>
   </div>
 </section>
+
+
+
+  </body>
+
+</html>
