@@ -4,7 +4,7 @@ html, body, section{
 section{
   background: #EFEFF4;
   border-right : 1px solid #DEDEDF;
-  overflow-y: scroll;
+  /*overflow-y: scroll;*/
 }
 section div.title-bar{
   background: #FFF;
