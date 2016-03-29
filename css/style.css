@@ -1,6 +1,9 @@
 html, body, section{
   height: 100% !important;
 }
+a{
+  color: #207DF7;
+}
 section{
   background: #EFEFF4;
   border-right : 1px solid #DEDEDF;
