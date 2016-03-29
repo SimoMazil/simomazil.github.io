@@ -1,7 +1,7 @@
 html, body, section{
   height: 100% !important;
 }
-a{
+a,a:hover,a:visited,a:focus{
   color: #207DF7;
 }
 section{
