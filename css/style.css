@@ -103,19 +103,20 @@ section ul.blog li i{
 }
 section article.about div.about{
   background: #FFF;
-  height: 300px;
+  height: 150px;
   border-top: 1px solid #DEDEDF;
   border-bottom: 1px solid #DEDEDF;
   position: relative;
 }
 section article.about div.about p{
+  font-size: 16px;
   padding: 0px 50px;
   text-align: justify;
 }
 section article.about div.about div.socials{
   position: absolute;
   bottom: 10px;
-  left: 20px;
+  left: 50px;
 }
 section article.about div.about div.socials a{
   margin-right: 5px;
