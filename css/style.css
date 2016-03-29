@@ -109,7 +109,7 @@ section article.about div.about{
   position: relative;
 }
 section article.about div.about p{
-  padding: 10px 20px;
+  padding: 0px 20px;
   text-align: justify;
 }
 section article.about div.about div.socials{
