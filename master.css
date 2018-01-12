@@ -1,0 +1,29 @@
+body{
+  background: #000;
+}
+
+h1.big-name{
+  font-size: 90px;
+  text-shadow: 3px -1px #F44336;
+  color: #FFEB3B;
+}
+
+h1, h2{
+  font-family: 'Source Code Pro', monospace;
+  color: #fff;
+}
+
+h1 span, h2 span{
+  font-size: 32px;
+  color: #00fff7;
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #000;
+  background: #fff;
+}
